@@ -1,3 +1,4 @@
-#//bin/bash
+#!/bin/bash
 ZM=$(grep -x -l '#!/bin/bash' *)
-chmod 750 ZM
+chmod 750 $ZM
+exit 0 
